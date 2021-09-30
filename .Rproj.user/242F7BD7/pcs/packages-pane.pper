@@ -1,0 +1,7 @@
+{
+    "installOptions": {
+        "installFromRepository": true,
+        "libraryPath": "C:/Users/jah2ax.ESERVICES/OneDrive - University of Virginia/Documents/R/R-4.0.4/library",
+        "installDependencies": true
+    }
+}
