@@ -1,5 +1,4 @@
-# reproAnalysis
-Reproducible Analysis and Documentation with R and RStudio
+# Reproducible Analysis and Documentation with R and RStudio
 
 Make your research life easier with the tools of reproducible research! In "Reproducible Analysis and Documentation with RStudio and R Markdown," we will focus primarly on two workflow-tools. First, we briefly review RStudio Projects to create a project-oriented workflow in your R scripts. Second, we use R Markdown for literate programming. We will review R Markdown documents, which you can use to write complete papers. We will take a look at the new features in Visual R Markdown, such as citations and technical writing.
 
