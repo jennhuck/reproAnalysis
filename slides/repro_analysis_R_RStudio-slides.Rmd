@@ -1,26 +1,34 @@
 ---
 title: "Reproducible Analysis and Documentation with R and RStudio"
 author: "Jennifer Huck"
-date: "9/30/2021"
+date: "Fall 2021"
 output: ioslides_presentation
-bibliography: repro_analysis_R_RStudio.bib
+bibliography: repro_analysis_R_RStudio-slides.bib
 link-citations: true
 ---
 
 ```{r setup, include=FALSE}
-here::i_am("website/repro_analysis_R_RStudio.Rmd")
+here::i_am("slides/repro_analysis_R_RStudio-slides.Rmd")
 library(here)
 
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Reproducible Analysis and Documentation with R and RStudio
+<style>
+  .note {
+    font-size: 50%;
+  }
+  .references {
+    font-size: 70%;
+  }
+</style>
 
-Jennifer Huck
 
-UVA Library
+## Slides Usage Notes 
 
-CC-BY
+- Recommended to press `w` for widescreen view.
+- Press `p` for Presenter Notes.
+- These slides are licensed as CC-BY.
 
 ## Before we begin
 
@@ -75,7 +83,7 @@ AKA "little p projects"
 3.  Use relative paths
 
 ::: {.notes}
-Aka "little p projects."
+<font size="1"> Aka "little p projects."
 
 First, let's make sure we set up our work into projects.
 
@@ -83,7 +91,7 @@ Step 1: Organize your work into "projects." That means all the files in a projec
 
 Step 2: When working on a project, set your working directory to that project's main directory. Be intentional about using that working directory. Use the tools that we will cover below, and avoid using `setwd()` and *absolute* paths
 
-Step 3: Be disciplined about using relative file paths. The working directory is the main directory, and all other paths are *relative* to that directory.
+Step 3: Be disciplined about using relative file paths. The working directory is the main directory, and all other paths are *relative* to that directory. </font>
 :::
 
 ## What RStudio Projects can do for you
@@ -120,8 +128,7 @@ If you want to run multiple projects at the same time, you can do that!
 
 ## Your Turn: RStudio Projects
 
-::: {.notes}
-As an example, we will imagine you are working on two projects: `worms` and `penguins`.
+<font size="3">As an example, we will imagine you are working on two projects: `worms` and `penguins`.
 
 You can designate a new or existing folder as an RStudio Project. All that means is that RStudio leaves behind a helper file, e.g., `worms.Rproj`. This file stores specific settings for that project.
 
@@ -133,8 +140,7 @@ Now click on the little down arrow next to the R cube in the upper right, click 
 
 Notice that you get a fresh environment when you switch back and forth.
 
-Using Windows Explorer or Mac Finder, go to where you saved the `worms` project. Double click on the `worms.rproj` file. RStudio will launch your project, and you can run multiple instances of R at the same time. You should have both `worms` and `penguins` projects open at the same time, using two RStudio instances. They are running in completely separate environments.
-:::
+Using Windows Explorer or Mac Finder, go to where you saved the `worms` project. Double click on the `worms.rproj` file. RStudio will launch your project, and you can run multiple instances of R at the same time. You should have both `worms` and `penguins` projects open at the same time, using two RStudio instances. They are running in completely separate environments.</font>
 
 ## Dynamic Documents with R Markdown: No more cut and paste!
 
@@ -191,28 +197,26 @@ The `here` package enables easy file referencing with project-oriented workflows
 The here package always points to the root directory, which is typically where we set the working directory with our RStudio Project.
 
 ```{r here}
-here::i_am("repro_analysis_R_RStudio.Rmd")
+here::i_am("repro_analysis_R_RStudio-slides.Rmd")
 ```
 
 References: [@barrett2018][@richmond][@muller][@mullera]
 
 ## Demo R Markdown
 
-We are going to use the `penguins` demo project to explore R Markdown documents. `penguins` has the following structure:
+<font size="3">We are going to use the `penguins` demo project to explore R Markdown documents. `penguins` has the following structure:
 
 ```{r tree, echo = FALSE}
 fs::dir_tree("C:/Users/jah2ax.ESERVICES/Documents/GitHub/penguins")
 ```
 
-## Demo R Markdown, con't
-
 Note that this implements the essential "little p" project structure, by separating content into clear subdirectories.
 
-Let's take a look at the `penguins` project now. The instructions for downloading the project are in the "Before we begin" section.
+Let's take a look at the `penguins` project now. The instructions for downloading the project are in the "Before we begin" section.</font>
 
 ## Recommended for further learning
 
-Reach out to our statistical consultants! [statlab\@virginia.edu](mailto:statlab@virginia.edu)
+<font size="2">Reach out to our statistical consultants! [statlab\@virginia.edu](mailto:statlab@virginia.edu)
 
 General Reproducible Research in R and RStudio:
 
@@ -222,8 +226,6 @@ RStudio Projects:
 
 -   Jennifer Bryan and Jim Hester. *What they Forgot to Teach about R*. [Project Oriented Workflow](https://rstats.wtf/project-oriented-workflow.html) and [Practice Safe Paths](https://rstats.wtf/safe-paths.html).
 -   Hadley Wickham and Garrett Grolemund. *R for Data Science.* [Chapter 8: Workflow: projects](https://r4ds.had.co.nz/workflow-projects.html).
-
-## Recommended for further learning, con't
 
 R Markdown:
 
@@ -237,12 +239,10 @@ R Markdown Cheat Sheets:
 -   RStudio. [R Markdown: Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown.pdf).
 -   RStudio. [R Markdown: Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf).
 
-## Recommended for further learning, con't
-
 Bonus: `here` package:
 
 -   Malcolm Barrett. [Why should I use the here package when I'm already using projects?](https://malco.io/2018/11/05/why-should-i-use-the-here-package-when-i-m-already-using-projects/)
 -   Jenny Richmond. [how to use the \`here\` package](http://jenrichmond.rbind.io/post/how-to-use-the-here-package/).
--   Kirill Müller and Jennifer Bryan. *Here package vignettes*: [here](https://cran.r-project.org/web/packages/here/vignettes/here.html) and [Using here with R Markdown](https://cran.r-project.org/web/packages/here/vignettes/rmarkdown.html).
+-   Kirill Müller and Jennifer Bryan. *Here package vignettes*: [here](https://cran.r-project.org/web/packages/here/vignettes/here.html) and [Using here with R Markdown](https://cran.r-project.org/web/packages/here/vignettes/rmarkdown.html). </font>
 
 ## References
