@@ -4,6 +4,7 @@ Make your research life easier with the tools of reproducible research! In "Repr
 
 This is the third of our four-session series “Reproducible Research Practices: Make Your Research Life Easier.”  Other sessions include "Organize Your Files and Metadata for Transparent and Reproducible Research," "Version Control with GitHub," and "Sharing Your Data for Transparent and Reproducible Research."
 
+[Slides are available](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio-slides.html#1).
 
 *Get Ready* 
 
