@@ -3,12 +3,12 @@ title: "Reproducible Analysis and Documentation with R and RStudio"
 author: "Jennifer Huck"
 date: "Fall 2021"
 output: ioslides_presentation
-bibliography: repro_analysis_R_RStudio-slides.bib
+bibliography: repro_analysis_R_RStudio.bib
 link-citations: true
 ---
 
 ```{r setup, include=FALSE}
-here::i_am("slides/repro_analysis_R_RStudio-slides.Rmd")
+here::i_am("slides/repro_analysis_R_RStudio.Rmd")
 library(here)
 
 knitr::opts_chunk$set(echo = FALSE)
@@ -198,7 +198,7 @@ The `here` package enables easy file referencing with project-oriented workflows
 The here package always points to the root directory, which is typically where we set the working directory with our RStudio Project.
 
 ```{r here}
-here::i_am("repro_analysis_R_RStudio-slides.Rmd")
+here::i_am("repro_analysis_R_RStudio.Rmd")
 ```
 
 References: [@barrett2018][@richmond][@muller][@mullera]

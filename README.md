@@ -11,7 +11,9 @@ Jennifer Huck
 Last updated: Fall 2021.
 
 ## Slides
-[Slides are available](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio-slides.html#1).
+[Slides](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio.html) are available.
+
+[Presenter mode slides](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio.html?presentme=true) are also available.  Allow pop-ups.
 
 ## Prep
 
