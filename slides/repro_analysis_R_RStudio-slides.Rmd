@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Slides Usage Notes 
 
 - Recommended to press `w` for widescreen view.
+- Also recommended to press `f` for fullscreen view.
 - Press `p` for Presenter Notes.
 - These slides are licensed as CC-BY.
 
