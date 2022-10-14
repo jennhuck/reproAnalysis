@@ -8,7 +8,7 @@ This is the third of our four-session series “Reproducible Research Practices:
 Jennifer Huck
 
 ## Dates
-Last updated: Fall 2021.
+Last updated: Fall 2022.
 
 ## Slides
 [Slides](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio.html) are available.
