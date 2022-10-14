@@ -22,4 +22,4 @@ Last updated: Fall 2022.
 
 ## Follow Along
 
-Use the [slides](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio-slides.html#1) to follow along.  You will create a simple RStudio Project (worms).  You will also use the Penguins demo project to review RStudio Projects.  Continue using the Penguins demo project and follow along with the R Markdown file there.
+Use the [slides](https://jennhuck.github.io/reproAnalysis/slides/repro_analysis_R_RStudio-slides.html#1) to follow along.  You will create a simple RStudio Project.  You will also use the Penguins demo project to review RStudio Projects.  Continue using the Penguins demo project and follow along with the R Markdown file there.
